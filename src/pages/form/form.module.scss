@@ -1,0 +1,103 @@
+.root {
+  width: 50vw;
+  margin: 75px auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  background-color: white;
+  display: flex;
+}
+
+.textArea {
+  width: 80%;
+  margin-top: 15px;
+}
+
+.time {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.date {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.submit {
+  display: block;
+}
+
+.title {
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.submitButton {
+  text-decoration: none;
+  border: none;
+  background-color: #7166ee;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+
+   margin-top: 50px;
+  margin-left: -250px;
+}
+
+.submitButton:hover {
+  transform: scale(0.9);
+}
+
+.personImg {
+  width: 50%;
+  align-self: end;
+  padding: 15px;
+}
+
+.formData {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    text-align: center;
+    position: relative;
+    width: 70vw;
+  }
+  .personImg {
+    display: none;
+  }
+  .date {
+    position: relative;
+    margin-left: 15px;
+    width: 70vw;
+  }
+  .textArea {
+    position: relative;
+    margin-left: 15px;
+    width: 70vw;
+  }
+  .time {
+    position: relative;
+    margin-left: 15px;
+    width: 70vw;
+  }
+  .submitButton {
+    margin-left: 110px;
+    margin-top: 25px;
+  }
+  .root {
+    width: 80vw;
+  }
+}

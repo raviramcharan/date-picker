@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  margin: 150px auto;
+  width: 60vw;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.info {
+  width: 50%;
+  background-color: #f66958;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.attendance {
+  width: 50%;
+  text-align: center;
+}
+
+.attButtons {
+  font-size: 40px;
+  margin: 25px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.attButtons:first-child {
+  color: green;
+}
+
+.attButtons:last-child {
+  color: red;
+}
+
+.attButtons:hover {
+  transform: scale(1.5);
+}

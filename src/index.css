@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Verdana";
+  background-color: #9cc2f4;
+}
+
+code {
+  font-family: "Verdana";
+}
+
+input {
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+textarea {
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+
+
+
